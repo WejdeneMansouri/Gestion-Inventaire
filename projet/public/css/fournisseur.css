@@ -1,0 +1,142 @@
+/* ======== Style global ======== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======== Titres ======== */
+h1 {
+    color: #1e3a8a; /* bleu foncé */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ======== Bouton ajouter fournisseur ======== */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1e3a8a; /* bleu */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 20px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #15275e;
+}
+
+/* ======== Formulaires ======== */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #facc15; /* jaune */
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #eab308;
+}
+
+/* ======== Messages de succès ======== */
+.success-message {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #d1fae5; /* vert clair */
+    color: #065f46;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ======== Tableaux ======== */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #1e3a8a;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f6f8;
+}
+
+table td form {
+    display: inline-block;
+}
+
+table td button {
+    background-color: #f87171; /* rouge */
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+table td button:hover {
+    background-color: #b91c1c;
+}
+
+table td a {
+    background-color: #facc15; /* jaune */
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+table td a:hover {
+    background-color: #eab308;
+}

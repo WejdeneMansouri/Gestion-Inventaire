@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ajouter fournisseur</title>
+    <title>Ajouter / Modifier fournisseur</title>
+    <link rel="stylesheet" href="{{ asset('css/fournisseur.css') }}">
 </head>
+
 <body>
 
 <h1>Ajouter un fournisseur</h1>

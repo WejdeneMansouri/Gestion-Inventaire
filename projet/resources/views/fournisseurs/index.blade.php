@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>Fournisseurs</title>
+    <link rel="stylesheet" href="{{ asset('css/fournisseur.css') }}">
 </head>
+
 <body>
 
 <h1>Liste des fournisseurs</h1>

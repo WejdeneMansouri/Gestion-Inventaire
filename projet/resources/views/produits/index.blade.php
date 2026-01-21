@@ -2,7 +2,10 @@
 <html>
 <head>
     <title>Produits</title>
+    <link rel="stylesheet" href="{{ asset('css/produit.css') }}">
 </head>
+
+
 <body>
 
 <h1>Liste des produits</h1>

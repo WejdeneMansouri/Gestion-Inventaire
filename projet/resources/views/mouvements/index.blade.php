@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>Historique des mouvements</title>
+    <link rel="stylesheet" href="{{ asset('css/mouvement.css') }}">
 </head>
+
 <body>
 
 <h1>Historique des mouvements</h1>

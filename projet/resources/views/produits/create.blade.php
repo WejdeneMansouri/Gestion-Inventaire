@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ajouter produit</title>
+    <title>Ajouter / Modifier produit</title>
+    <link rel="stylesheet" href="{{ asset('css/produit.css') }}">
 </head>
+
 <body>
 
 <h1>Ajouter un produit</h1>

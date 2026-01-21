@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>Catégories</title>
+    <link rel="stylesheet" href="{{ asset('css/categorie.css') }}">
 </head>
+
 <body>
 
 <h1>Liste des catégories</h1>

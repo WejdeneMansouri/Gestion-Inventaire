@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Entrée de stock</title>
+    <title>Entrée / Sortie de stock</title>
+    <link rel="stylesheet" href="{{ asset('css/mouvement.css') }}">
 </head>
+
 <body>
 
 <h1>Entrée de stock</h1>
